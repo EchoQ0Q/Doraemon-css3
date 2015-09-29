@@ -1,0 +1,68 @@
+.doraemon .choker {
+  background: -webkit-gradient(linear,center top ,center bottom,from(#c40), to(#800400)) ;
+  background: -moz-linear-gradient(center top, #c40, #800400);
+  background: linear-gradient(center top, #c40, #800400);
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 20px;
+  left: 45px;
+  position: relative;
+  top: -40px;
+  width: 230px;
+  z-index: 4;
+}
+
+.doraemon .choker .bell {
+  background: -webkit-linear-gradient(center top, #f9f12a, #e9e11a 75%, #a9a100);
+  background: linear-gradient(center top, #f9f12a, #e9e11a 75%, #a9a100);
+  background: -moz-linear-gradient(center top, #f9f12a, #e9e11a 75%, #a9a100);
+  border: 2px solid #000;
+  border-radius: 50px;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  left: 90px;
+  position: relative;
+}
+
+.doraemon .choker .bell_line {
+  background: #f0f12a;
+  border: 2px solid #333;
+  border-radius: 3px;
+  height: 2px;
+  width: 36px;
+  top: 10px;
+  position: relative;
+}
+
+.doraemon .choker .bell_circle {
+  background: #000;
+  border-radius: 5px;
+  width: 12px;
+  height: 14px;
+  position: relative;
+  top: 14px;
+  left: 14px;
+}
+
+.doraemon .choker .bell_under {
+  background: #000;
+  width: 3px;
+  height: 12px;
+  top: 10px;
+  left: 18px;
+  position: relative;
+}
+
+.doraemon .choker .bell_light {
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  left: 5px;
+  top: -35px;
+  box-shadow: 19px 8px 5px rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+/*# sourceMappingURL=chocker-bell.css.map */

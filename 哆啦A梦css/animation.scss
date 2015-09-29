@@ -1,0 +1,15 @@
+/* Scss Document */
+.doraemon .hand_left{
+    animation-duration:5s;
+    animation-iteration-count:10000;
+    animation-name:handmove;
+    animation-timing-function:linear;
+    
+
+}
+.doraemon .hand_right{
+    animation-duration:5s;
+    animation-iteration-count:1000;
+    animation-name:handmove;
+    animation-timing-function:linear;
+}

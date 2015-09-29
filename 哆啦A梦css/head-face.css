@@ -1,0 +1,178 @@
+.doraemon {
+  position: relative;
+  margin:50px;
+}
+
+.doraemon .head {
+  width: 320px;
+  height: 300px;
+  border-radius: 150px;
+  background: #07bbee;
+  background: -webkit-radial-gradient(right top, #fff 10%, #07bbee 20%, #10a6ce 75%, #000);
+  background: -moz-radial-gradient(right top, #fff 10%, #07bbee 20%, #10a6ce 75%, #000);
+  background: radial-gradient(right top, #fff 10%, #07bbee 20%, #10a6ce 75%, #000);
+  box-shadow: -5px 10px 15px rgba(0,0,0,0.5);
+  border: 2px #555 solid;
+  position: relative;
+}
+
+.doraemon .face {
+  position: relative;
+  z-index: 2;
+}
+
+.doraemon .face .white {
+  border: #000 2px solid;
+  width: 265px;
+  height: 195px;
+  border-radius: 150px 150px;
+  position: absolute;
+  top: 75px;
+  left: 25px;
+  background: #fff;
+  background: -webkit-radial-gradient(right top, #fff 75%, #eee 80%, #999 90%, #444);
+  background: -moz-radial-gradient(right top, #fff 75%, #eee 80%, #999 90%, #444);
+  background: radial-gradient(right top, #fff 75%, #eee 80%, #999 90%, #444);
+}
+
+.doraemon .face .nose {
+  background: #c93300;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 30px;
+  top: 110px;
+  left: 140px;
+  z-index: 3;
+  border:2px solid #333;
+}
+
+.doraemon .face .nose .light {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  box-shadow: 19px 8px 5px #fff;
+}
+
+.doraemon .face .nose_line {
+  background: #333;
+  width: 3px;
+  height: 100px;
+  top: 143px;
+  left: 155px;
+  position: absolute;
+  z-index: 3;
+}
+
+.doraemon .face .mouth {
+  width: 220px;
+  height: 400px;
+  border-bottom: 3px solid #333;
+  border-radius: 120px;
+  position: absolute;
+  top: -160px;
+  left: 45px;
+}
+
+.doraemon .eyes {
+  position: absolute;
+  z-index: 3;
+}
+
+.doraemon .eyes .eye {
+  position: absolute;
+  top: 40px;
+  width: 72px;
+  height: 82px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 35px;
+}
+
+.doraemon .eyes .eye .black {
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  background: #000;
+  position: absolute;
+  top: 40px;
+}
+
+.doraemon .eyes .left {
+  left: 82px;
+}
+
+.doraemon .eyes .right {
+  left: 156px;
+}
+
+.doraemon .eyes .eye .bleft {
+  left: 50px;
+}
+
+.doraemon .eyes .eye .bright {
+  left: 7px;
+}
+
+.doraemon .whiskers {
+  background: #fff;
+  width: 220px;
+  height: 80px;
+  position: relative;
+  top: 120px;
+  left: 45px;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.doraemon .whiskers .whisker {
+  background: #333;
+  height: 2px;
+  width: 60px;
+  position: absolute;
+  z-index: 2;
+}
+
+.doraemon .whiskers .rTop {
+  left: 165px;
+  top: 25px;
+}
+
+.doraemon .whiskers .rMiddle {
+  left: 167px;
+  top: 45px;
+}
+
+.doraemon .whiskers .rBottom {
+  left: 165px;
+  top: 65px;
+}
+
+.doraemon .whiskers .lTop {
+  left: 0px;
+  top: 25px;
+}
+
+.doraemon .whiskers .lMiddle {
+  left: -2px;
+  top: 45px;
+}
+
+.doraemon .whiskers .lBottom {
+  left: 0px;
+  top: 65px;
+}
+
+.doraemon .whiskers .r160 {
+  -webkit-transform: rotate(160deg);
+      -ms-transform: rotate(160deg);
+          transform: rotate(160deg);
+}
+
+.doraemon .whiskers .r20 {
+  -webkit-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+/*# sourceMappingURL=head-face.css.map */
